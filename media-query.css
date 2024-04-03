@@ -1,0 +1,67 @@
+/* Todas as demais midias */
+
+/* Typical Device Breakpoints 
+-----------------------------
+Pequenas telas: ate 600px
+Celular: de 600px até 768px
+Tablet: de 768 até 992px
+Desktop: 992px até 1200px
+Grandes telas acima de 1200px
+*/
+
+@media print /* IMPRESSÃO */ {
+
+}
+
+@media screen and (min-width:  768px) and (max-width: 992px) { /* TABLET */ 
+    .container_box_form {
+        width: 500px;
+        height: 550px;
+        justify-content: center;
+    }
+
+    .container_box_form h1 {
+        font-size: 3.2rem;
+    }
+
+    .container_box_form input {
+        padding: 10px 40px;
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    .flex_text {
+        font-size: 22px;
+        gap: 50px;
+    }
+
+    .flex_final {
+        margin-top: 10px;
+        gap: 20px;
+    }
+
+    .flex_final button {
+        padding: 15px 30px;
+        width: 300px;
+        font-size: 25px;
+        margin: 0 auto;
+    }
+
+    .flex_final p {
+        text-align: center;
+        font-size: 21px;
+    }
+
+    footer p {
+        font-size: 21px;
+    }
+   
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) { /* DESKTOP */
+
+}
+
+@media screen and (min-width: 1200px) { /* GRANDES TELAS */ 
+
+}

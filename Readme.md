@@ -1,0 +1,1 @@
+Projeto focado em colocar em prática minhas habilidades em HTML e CSS (Flexbox, organizar caixas e principalmente responsividade.)

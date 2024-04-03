@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+.container {
+    background-color: #27374D;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container_box_form  {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 1px solid #ffffffac;
+    padding: 25px 40px;
+    background-color: #526D82;
+    border-radius: 10px;
+}
+
+.container_box_form h1 {
+    text-align: center;
+    color: #fff;
+}
+
+.container_box_form input {
+    padding: 5px 15px;
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid #fff;
+    font-size: 16px;
+}
+
+.flex_text {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #fff;
+    font-size: 14px;
+}
+
+.flex_text a {
+    color: #DDE6ED;
+}
+
+.flex_final {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.flex_final button {
+    padding: 10px 15px;
+    border-radius: 6px;
+    border: none;
+    background-color: #27374D;
+    color: #fff;
+    font-size: 17px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.flex_final button:hover {
+    background-color: #fff;
+    color: #27374D;
+}
+
+.flex_final p {
+    color: #DDE6ED;
+}
+
+.flex_final p a {
+    color: #fff;
+}
+
+footer  {
+    margin-top: 15px;
+    color: #fff;
+}
+
+footer p a {
+    color: #a0d6ff;
+    text-decoration: none;
+}
